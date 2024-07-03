@@ -16,6 +16,10 @@ Including another URLconf
 from django.contrib import admin # type: ignore
 from django.urls import include, path # type: ignore
 
+admin.site.site_header = 'Ceo Suhade'                    # default: "Django Administration"
+admin.site.index_title = 'Content Area area'                 # default: "Site administration"
+admin.site.site_title = 'Suhade admin panel' # default: "Django site admin"
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('account.urls')),
