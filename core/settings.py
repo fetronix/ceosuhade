@@ -89,25 +89,26 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # }
 
 
-import dj_database_url
-
-DATABASES = {
-    'default': dj_database_url.config(
-        conn_max_age=600,
-        conn_health_checks=True,
-    ),
-}
+# import dj_database_url
 
 # DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'postgres',
-#         'USER': 'masteruser',
-#         'PASSWORD': 'master254M',
-#         'HOST': 'w3-django-project.cjqwygu4ut6n.us-east-1.rds.amazonaws.com',
-#         'PORT': '5432'
-#     }
+#     'default': dj_database_url.config(
+#         default='postgres://u3njfaqts01m9a:pc8cefcf2ab7c08f4810710fc1407b6317304932e10a109d329be6d27e4e859a8@c5p86clmevrg5s.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d9sdlotonnpa0e',
+#         conn_max_age=600,
+#         conn_health_checks=True,
+#     ),
 # }
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd9sdlotonnpa0e',
+        'USER': 'u3njfaqts01m9a',
+        'PASSWORD': 'pc8cefcf2ab7c08f4810710fc1407b6317304932e10a109d329be6d27e4e859a8',
+        'HOST': 'c5p86clmevrg5s.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
+        'PORT': '5432'
+    }
+}
 
 
 
