@@ -1,0 +1,13 @@
+﻿/* RadRating for ASP.NET AJAX Sitefinity Skin */
+
+.RadRating_Sitefinity a,
+.RadRating_Sitefinity a span
+{
+	background-image: url('WebResource2dce.png?d=woOfyYlxJjDqfaPLovJf4erVyOSWk56GoHBg65DabHXc15spoE4BuvpUD7O_0DZEWmCU-gwlxwzq9rDuA7FlMw55FzuFuDityTpKexcuPHvpRkARHg7ZvQouqqo_UoDQy9VidZpN88yZVW4S_3i_5xtgVwvOpZM9sxeqSe97nIk7fZ-t0&amp;t=637635792635694722');
+}
+
+* html .RadRating_Sitefinity a,
+* html .RadRating_Sitefinity a span
+{
+	background-image: url('WebResourcef442.gif?d=LAGV-JhG4d3rJNLBEFCvizuRwDFOaskOP3rq5dZtv4OQH3TV-nS6Ut98pcef4f-PzAVbA5CFRmLUoGp51uSNPaJvXh-V6W--5m02Tq5ZH2jr-9DY3Xk97bOsyxpCcQrrwSDD751kfKMiUwf3eyPqrX7TEsVz2UHnDOtfT9uAAcha3tmt0&amp;t=637635792635694722');
+}

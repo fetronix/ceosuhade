@@ -1,0 +1,47 @@
+﻿/* RadToolTip Windows7 Skin */
+
+.RadToolTip_Windows7.rtLoading
+{	
+	background: url('WebResource8291.gif?d=cd6d-K6DJJKWVcHzdgeXcIUeZHVZ3yfZ1LKzZ7RL95Dxn7xpjOX-HY2sp3Jmkw27kJ3RlotFuXDWVVwZsvDoy_xZZUJDHK0RgCfnBIgC_E3k7EWIIhzp3l6tpLROGqIXpBAS4pWetn_GKDXBLtSdQ0ZxX5sdZrv6nTRNwzQkKmh4EDm-0&amp;t=637635792635694722') no-repeat center;
+}
+
+div.RadToolTip_Windows7 table.rtWrapper td.rtWrapperTopLeft,
+div.RadToolTip_Windows7 table.rtWrapper td.rtWrapperTopRight,
+div.RadToolTip_Windows7 table.rtWrapper td.rtWrapperBottomLeft,
+div.RadToolTip_Windows7 table.rtWrapper td.rtWrapperBottomRight,
+div.RadToolTip_Windows7 table.rtWrapper td.rtWrapperTopCenter,
+div.RadToolTip_Windows7 table.rtWrapper td.rtWrapperBottomCenter,
+div.RadToolTip_Windows7 table.rtShadow td.rtWrapperTopLeft,
+div.RadToolTip_Windows7 table.rtShadow td.rtWrapperTopRight,
+div.RadToolTip_Windows7 table.rtShadow td.rtWrapperBottomLeft,
+div.RadToolTip_Windows7 table.rtShadow td.rtWrapperBottomRight,
+div.RadToolTip_Windows7 table.rtShadow td.rtWrapperTopCenter,
+div.RadToolTip_Windows7 table.rtShadow td.rtWrapperBottomCenter,
+div.RadToolTip_Windows7 a.rtCloseButton
+{
+	background-image: url('WebResource695d.png?d=HNBoLGo6VXIj_uCvnvLVIC1cv9z2RaMoNoroGOAGF5PQQE29e-CGpdS5CsVemuiOLNn5Y1G5k7h-l3hkhFa9Yxj76WyWEZ9ZzkbqiVO5npWE14P-1rDCt05AfAbkht-_Zh9UdTmRZN1k59-tLpE1Mzt-ZLjeIOXsZHPFbAvsQkfYHKBw0&amp;t=637635792635694722');
+}
+
+div.RadToolTip_Windows7 table.rtWrapper td.rtWrapperLeftMiddle,
+div.RadToolTip_Windows7 table.rtWrapper td.rtWrapperRightMiddle,
+div.RadToolTip_Windows7 table.rtShadow td.rtWrapperLeftMiddle,
+div.RadToolTip_Windows7 table.rtShadow td.rtWrapperRightMiddle
+{
+	background-image:  url('WebResourced30b.png?d=nlW4ASTAPhJfCMiC2sdk5xF_lsB-acxtbQNh6N5pdwU5HOXjkmTM762cEWoa2bX14Du-pvXZ6XzCw0gmKmoLNtHegNMAmH7Z-q-JNUCpKchjwoRXmGHw5DC4rU0rp_F4UdTNjsZwVFEQxtLSUZlfBXWah38Okui2AQEQG9_JpJRqJDJM6NLXIxpIFqK496_5EkzfvQ2&amp;t=637635792635694722');
+}
+
+div.RadToolTip_Windows7 table.rtWrapper td.rtWrapperContent
+{
+	background-color: #eef4fb;	
+	color: #4c607a;
+}
+
+div.RadToolTip_Windows7 div.rtTitlebar
+{	
+	color: #4c607a;
+}
+
+div.RadToolTip_Windows7 div.rtCallout
+{
+	background-image: url('WebResourced1b5.gif?d=1t8ZpthEzotmwbV07K8mNn9al6-jb0-kEjrzS32BxsXBZj5W-Jhbw80hpLZx68Se0idHqfbMU3AZCyEKC2R_9A4vrimIEbaSqUvz0vwN2hQUABB9SC_DY9rFwqU3eKYUkm0pDc8W8yEtcLFZcW-Qal9xR_QmOkzs6Di8x2h5Rwg85O0E0&amp;t=637635792635694722');
+}

@@ -1,0 +1,47 @@
+﻿/* RadToolTip Default Skin */
+
+.RadToolTip_Default.rtLoading
+{	
+	background: url('WebResource6c43.gif?d=Hk8L0aMbl4VNkq9KLEsr6xtz5KJkskIcYCRTjqzyjR6Jwnhxha29xkoUZjp4gMMCqNXOTlv5TTcMUxuL9yVK7IIPq-iA9uhAjwVJ66aXPWth1Z4duqcpkOkT8m6W9eDVcU_4-5r_K5UW8KS0k1-TAsu2UCA1&amp;t=637635792635694722') no-repeat center;
+}
+
+div.RadToolTip_Default table.rtWrapper td.rtWrapperTopLeft,
+div.RadToolTip_Default table.rtWrapper td.rtWrapperTopRight,
+div.RadToolTip_Default table.rtWrapper td.rtWrapperBottomLeft,
+div.RadToolTip_Default table.rtWrapper td.rtWrapperBottomRight,
+div.RadToolTip_Default table.rtWrapper td.rtWrapperTopCenter,
+div.RadToolTip_Default table.rtWrapper td.rtWrapperBottomCenter,
+div.RadToolTip_Default table.rtShadow td.rtWrapperTopLeft,
+div.RadToolTip_Default table.rtShadow td.rtWrapperTopRight,
+div.RadToolTip_Default table.rtShadow td.rtWrapperBottomLeft,
+div.RadToolTip_Default table.rtShadow td.rtWrapperBottomRight,
+div.RadToolTip_Default table.rtShadow td.rtWrapperTopCenter,
+div.RadToolTip_Default table.rtShadow td.rtWrapperBottomCenter,
+div.RadToolTip_Default a.rtCloseButton
+{
+	background-image: url('WebResource7145.png?d=1V0ogEd0lDSMwrhclmppUsleckyZrhqf5x1o0t_MvBE4eN34n89CQzyZXTX6uktti_KcciQSbC2JzJsZt6y2ZNkHAY0_NFs1-PGiDNfYYRckYbrYTj85wF-UI4D4cCXtOqhJF0rdaZIqK07dpmslu8Qkd1RJ85wsdLIMaXcaYqa_qwRk0&amp;t=637635792635694722');
+}
+
+div.RadToolTip_Default table.rtWrapper td.rtWrapperLeftMiddle,
+div.RadToolTip_Default table.rtWrapper td.rtWrapperRightMiddle,
+div.RadToolTip_Default table.rtShadow td.rtWrapperLeftMiddle,
+div.RadToolTip_Default table.rtShadow td.rtWrapperRightMiddle
+{
+	background-image:  url('WebResource61f8.png?d=QBb-aemPIiHQ8JedNK-lbMLJGMBfNSdWqQjQBXdMiU9G6ahyG77M87FySMMF532trBQ6-9xVRLn6Wo6Y2Jfis8kKVFscppBHGyGM6zASZiAY4MsR-nzK4dcuwqQFxZyHG03fGyT5CsV24P_0dhHhwRlQY9I4T6WcdpS4WY5lhYnxD95W0&amp;t=637635792635694722');
+}
+
+div.RadToolTip_Default table.rtWrapper td.rtWrapperContent
+{
+	background-color: #fff;
+	color: #666;
+}
+
+div.RadToolTip_Default div.rtTitlebar
+{	
+	color: #666;
+}
+
+div.RadToolTip_Default div.rtCallout
+{
+	background-image: url('WebResource0c60.gif?d=4kBbh6WHj0YOS1OR1U5rmI0eyxs_5Pvd5cNnHVjT1liyUHUuaeT54YsKzVgM0g2ZE63iItJOKgcDwPcoctr4yfnoM53DnbATsBPGQuavSaqh-H5z5NpwTHr1tjn8Vc0MNFSH0hEP9kxSmRuyo0Xt2IRSRIfHOIzbRthUrPkLxqP13wtd0&amp;t=637635792635694722');
+}

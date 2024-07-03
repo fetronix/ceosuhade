@@ -1,0 +1,148 @@
+﻿/* RadUpload / Black skin */
+
+/* <general styles> */
+
+.RadUpload_Black,
+.RadUpload_Black a,
+.RadUpload_Black input,
+.RadUploadProgressArea_Black,
+.RadUploadProgressArea_Black input
+{
+    font: normal 11px/10px "Segoe UI", Arial, sans-serif;
+}
+
+/* </general styles> */
+
+/* <file inputs> */
+
+.RadUpload_Black .ruStyled .ruFileInput
+{
+    border-color: #abadb3;
+}
+
+.RadUpload_Black input.ruFakeInput
+{
+    border-color: #000;
+    color: #fff;
+    background-color: #000;
+    background-image: url('WebResourcee6b4.png?d=Wd_OTv4VPFoWnEJKG1Ts3HUydtm6WYZP9WxgChubgbz9ixcA6_ups71MVVxWV3IhY4GgDsPz-vlQJBW0QzCX5JHa4U0FC_EluHzBNiPQ2C1VqrUTzT122eSDgrmhjQAei5dv3pu00I9BEFV-gjlTOxCoXwU1&amp;t=637635792635694722');
+}
+* html .RadUpload_Black .ruFileWrap .ruInputHover { border-color: #777; }
+*+html .RadUpload_Black .ruFileWrap .ruInputHover { border-color: #777; }
+
+.RadUpload_Black .ruReadOnly .ruFakeInput
+{
+	background: #f3f3f3;
+}
+
+/* </file inputs> */
+
+/* <buttons> */
+
+.RadUpload_Black .ruButton,
+.RadUploadProgressArea_Black .ruButton
+{
+    background-image: url('WebResourcee6b4.png?d=Wd_OTv4VPFoWnEJKG1Ts3HUydtm6WYZP9WxgChubgbz9ixcA6_ups71MVVxWV3IhY4GgDsPz-vlQJBW0QzCX5JHa4U0FC_EluHzBNiPQ2C1VqrUTzT122eSDgrmhjQAei5dv3pu00I9BEFV-gjlTOxCoXwU1&amp;t=637635792635694722');
+    color: #fff;
+}
+
+.RadUpload_Black .ruRemove
+{
+	color: #fff;
+}
+
+div.RadUpload_Black .ruInputs .ruButtonHover,
+div.RadUpload_Black .ruActions .ruButtonHover,
+div.RadUploadProgressArea_Black .ruActions .ruButtonHover
+{
+    background-position: 100% -23px;
+}
+
+div.RadUpload_Black .ruFileWrap .ruButtonHover
+{
+    background-position: 100% 0;
+}
+
+/* </buttons> */
+
+/* <submit button> */
+/* (use this class to style a single button for uploads) */
+
+.RadUploadSubmit
+{
+    background-image: url('WebResourcee6b4.png?d=Wd_OTv4VPFoWnEJKG1Ts3HUydtm6WYZP9WxgChubgbz9ixcA6_ups71MVVxWV3IhY4GgDsPz-vlQJBW0QzCX5JHa4U0FC_EluHzBNiPQ2C1VqrUTzT122eSDgrmhjQAei5dv3pu00I9BEFV-gjlTOxCoXwU1&amp;t=637635792635694722');
+    color: #000;
+}
+
+/* </submit button> */
+
+/* <progress area> */
+
+.RadUploadProgressArea_Black .ruProgress
+{
+    border-color: #1d1d1d;
+    background-image: url('WebResourcee6b4.png?d=Wd_OTv4VPFoWnEJKG1Ts3HUydtm6WYZP9WxgChubgbz9ixcA6_ups71MVVxWV3IhY4GgDsPz-vlQJBW0QzCX5JHa4U0FC_EluHzBNiPQ2C1VqrUTzT122eSDgrmhjQAei5dv3pu00I9BEFV-gjlTOxCoXwU1&amp;t=637635792635694722');
+    background-color: #2e2e2e;
+}
+
+.RadUploadProgressArea_Black .ruProgress li
+{
+    color: #d7d7d7;
+}
+
+.RadUploadProgressArea_Black li.ruProgressHeader
+{
+    color: #9eda29;
+}
+
+.RadUploadProgressArea_Black .ruProgress li.ruCurrentFile
+{
+    color: #d7d7d7;
+}
+
+.RadUploadProgressArea_Black .ruProgress .ruBar
+{
+    border-color: #000;
+    background-image: url('WebResourcee6b4.png?d=Wd_OTv4VPFoWnEJKG1Ts3HUydtm6WYZP9WxgChubgbz9ixcA6_ups71MVVxWV3IhY4GgDsPz-vlQJBW0QzCX5JHa4U0FC_EluHzBNiPQ2C1VqrUTzT122eSDgrmhjQAei5dv3pu00I9BEFV-gjlTOxCoXwU1&amp;t=637635792635694722');
+}
+ 
+.RadUploadProgressArea_Black .ruProgress .ruBar div
+{
+    background-image: url('WebResourcece34.gif?d=ZCxQiSgfjO1VwAdmUWIypVszen1bcSFP26L4Wd6UCKFadQQqUh0EEeSWdW9giVqonX4ZMmBocG3kWz5U8jXeP26u2KsveAktdQhDEq6zowzt52xJ2n0Zr0AnuFFsFKWrYFdrshmdv5Xe-KJAsrotRWQgbAw0eSsADR1ChbQtxHv82C5w0&amp;t=637635792635694722');
+    border-right: 1px solid #000;
+}
+
+.RadUploadProgressArea_Black_rtl .ruProgress .ruBar div
+{
+    background-image: url('WebResourcece34.gif?d=ZCxQiSgfjO1VwAdmUWIypVszen1bcSFP26L4Wd6UCKFadQQqUh0EEeSWdW9giVqonX4ZMmBocG3kWz5U8jXeP26u2KsveAktdQhDEq6zowzt52xJ2n0Zr0AnuFFsFKWrYFdrshmdv5Xe-KJAsrotRWQgbAw0eSsADR1ChbQtxHv82C5w0&amp;t=637635792635694722');
+    border-left: 1px solid #000;
+    border-right: 0;
+}
+ 
+.RadUploadProgressArea_Black .ruProgress .ruActions
+{
+	border-top-color: #000;
+	background: #1d1d1d;
+}
+
+/* </progress area> */
+
+/* <RadAsyncUpload> */
+
+.RadUpload_Black .ruFileProgress,
+.RadUpload_Black .ruFileProgressWrap
+{
+    background-image: url('WebResource8f51.png?d=OflUW8AlykzJae69gDjcMf7s3jOLKifKt1ZjkJg2WfSc4jeTtnh6_AKdKV56Gw0xGliLnGF2BZURFpIR2GElpVbAwm_MKJ54ifyKjjhbJk1D84QMs1oK5Engr7ZKKriwRYKVahc-23QlWTYOgr7E5yqnFwLe4DcUlUjEzR1P8zKt-vQ20&amp;t=637635792635694722');
+}
+
+.RadUpload_Black .ruFileProgress,
+.RadUpload_Black_rtl .ruFileProgressWrap { background-position: 0 0; }
+.RadUpload_Black .ruFileProgressWrap,
+.RadUpload_Black_rtl .ruFileProgress { background-position: 100% 0; }
+
+.RadUpload_Black .ruProgressStarted,
+.RadUpload_Black_rtl .ruProgressComplete { background-position: 0 -5px; }
+.RadUpload_Black .ruProgressComplete,
+.RadUpload_Black_rtl .ruProgressStarted { background-position: 100% -5px; }
+
+/* </RadAsyncUpload> */
