@@ -1,7 +1,7 @@
 <!DOCTYPE html>
+{% load  static  %}
 <html class="no-js" lang="en">
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
-<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <meta charset="utf-8">
 <title>Custom College Essays Online</title>
 <meta name="Description" content="Buy custom college essays online at an affordable price from real Unemployed Professors. Our top essay writing experts deliver high quality research in record time." />
@@ -20,12 +20,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta charset="utf-8">
 
-<link rel="icon" type="image/gif" href="images/pin_blue.png" />
-<link rel="shortcut icon" href="images/pin_blue.png" type="image/x-icon" />
-<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css" type="text/css" />
-<link rel="stylesheet" href="libs/superfish-master/css/superfish.css" type="text/css" />
-<link rel="stylesheet" href="libs/ytp-player/css/jquery.mb.YTPlayer.min.css" type="text/css" />
-<link rel="stylesheet" href="libs/animsition/animsition.min.css" type="text/css" />
+<link rel="icon" type="image/gif" href=" {% static 'frontend/images/pin_blue.png' %} " />
+<link rel="shortcut icon" href=" {% static 'frontend/images/pin_blue.png' %} " type="image/x-icon" />
+<link rel="stylesheet" href="{% static 'frontend/libs/bootstrap/css/bootstrap-grid.min.css' %} " type="text/css" />
+<link rel="stylesheet" href=" {% static 'frontend/libs/superfish-master/css/superfish.css' %} " type="text/css" />
+<link rel="stylesheet" href=" {% static 'frontend/libs/ytp-player/css/jquery.mb.YTPlayer.min.css' %} " type="text/css" />
+<link rel="stylesheet" href="{% static 'frontend/libs/animsition/animsition.min.css' %} " type="text/css" />
 
 <style type="text/css">
 
@@ -6318,15 +6318,7 @@ img.mfp-img {
 
 <style type="text/css">
     @charset "UTF-8";
-/***********************************************************************************
- *	+ [Master Stylesheet]
 
- *	+ Project: KANTER - Creative Digital Agency Template
- 	To use this template you must have a license purchased at TemplateMonster (templatemonster.com)
- *	+ Autor: Brainiak
- *	+ Version: 1.0
- ***********************************************************************************/
-/*********************************************************************************** */
 /* Header */
 /** Navigation */
 /* Slider */
@@ -11003,8 +10995,8 @@ footer {
 
 <header class="top-nav page-header" id="top-nav">
 <div class="container">
-<a class="logo smooth-scroll" href="index-2.html">
-<img class="logo-white" src="img/LogoLight.png" alt="custom term paper writing service">
+<a class="logo smooth-scroll" href="indexfrontend/img/LogoLight.pngfrontend/img/LogoLight.png.html">
+<img class="logo-white" src="{% static 'frontend/img/LogoLight.png' %} " alt="custom term paper writing service">
 </a>
 <nav class="top-menu">
 <ul class="sf-menu">
@@ -11039,8 +11031,8 @@ footer {
 </ul>
 </li>
 <li><a class="smooth-scroll" href="Howitworks.html">How It Works</a></li>
-<li><a href="Login.html" id="FMenu_lnkLogin" class="smooth-scroll">Login</a></li>
-<li><a href="Signup.html" id="FMenu_lnkRegister" class="smooth-scroll">Register</a></li>
+<li><a href="{% url 'login_view'%}" id="FMenu_lnkLogin" class="smooth-scroll">Login</a></li>
+<li><a href="{% url 'register'%}" id="FMenu_lnkRegister" class="smooth-scroll">Register</a></li>
 <li></li>
 </ul>
 
@@ -11088,8 +11080,8 @@ footer {
 </ul>
 </li>
 <li><a class="smooth-scroll" href="Howitworks.html">How It Works</a></li>
-<li><a href="Login.html" id="FMenu_lnkLoginMobile" class="smooth-scroll">Login</a></li>
-<li><a href="Signup.html" id="FMenu_lnkRegisterMobile" class="smooth-scroll">Register</a></li>
+<li><a href="{% url 'login_view'%}" id="FMenu_lnkLoginMobile" class="smooth-scroll">Login</a></li>
+<li><a href="{% url 'register'%}" id="FMenu_lnkRegisterMobile" class="smooth-scroll">Register</a></li>
 <li></li>
 </ul>
 </nav>
@@ -11812,7 +11804,7 @@ Sys.WebForms.PageRequestManager._initialize('FTopDropdown$RadScriptManager1', 'c
 <div class="slider" id="top">
 <div class="full-slider intro">
 
-<div id="pnlPicture" class="slide bg-mask background-image full-vh" data-image="img/bgn8.jpg">
+<div id="pnlPicture" class="slide bg-mask background-image full-vh" data-image="{% static 'frontend/img/bgn8.jpg' %} ">
 <div class="container-slide vertical-align center head-desc">
 <div class="container">
 <div class="row">
@@ -11839,7 +11831,7 @@ Now we can also help with your online courses and tests.
 <a class="smooth-scroll btn-down" href="#into"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
 </div>
 
-<div class="into-slider background-image" id="into" data-image="img/bgn111.jpg">
+<div class="into-slider background-image" id="into" data-image=" {% static 'frontend/img/bgn111.jpg' %} ">
 <div class="container-fluid">
 <div class="row" style="background-color: #111;">
 <div class="col-md-8 col-md-push-2">
@@ -11858,7 +11850,7 @@ Now we can also help with your online courses and tests.
 
 <a href="Research-Paper-writing-services.html">
 <div style="margin-bottom: 10px;">
-<img src="images_template/Graduate.png" alt="Research and academic writing" />
+<img src=" {% static 'frontend/images_template/Graduate.png' %}  " alt="Research and academic writing" />
 </div>
 <h4 style="min-height: 60px;">RESEARCH AND ACADEMIC WRITING</h4>
 </a>
@@ -11870,7 +11862,7 @@ Now we can also help with your online courses and tests.
 
 <a href="Resumes.html">
 <div style="margin-bottom: 10px;">
-<img src="images_template/resume.png" alt="Resumes / Cover letters" />
+<img src="{% static 'frontend/images_template/resume.png' %} " alt="Resumes / Cover letters" />
 </div>
 <h4 style="min-height: 60px;">RESUMES / COVER LETTERS</h4>
 </a>
@@ -11882,7 +11874,7 @@ Now we can also help with your online courses and tests.
 
 <a href="WhitePapers.html">
 <div style="margin-bottom: 10px;">
-<img src="images_template/stairs.png" alt="White Papers and Business Plans" />
+<img src="{% static 'frontend/images_template/stairs.png' %} " alt="White Papers and Business Plans" />
 </div>
 <h4 style="min-height: 60px;">White Papers, Industry Research Reports, and Business Plans</h4>
 </a>
@@ -12898,9 +12890,8 @@ document.getElementById('FTopDropdown_RequiredFieldValidator1').dispose = functi
 <div class="links">
 <h5>Account</h5>
 <ul class="list">
-<li><a href="Login.html">Login</a></li>
-<li><a href="Signup.html">Register</a></li>
-<li><a href="ForgotPass.html">Password Reset</a></li>
+<li><a href="{% url 'login_view'%}">Login</a></li>
+<li><a href="{% url 'register'%}">Register</a></li>
 <li><a href="Contact.html">Contact Us</a></li>
 <li><a href="AboutUs.html">About Us</a></li>
 <li><a href="Faq.html">Faq</a></li>
@@ -13012,9 +13003,9 @@ document.getElementById('FTopDropdown_RequiredFieldValidator1').dispose = functi
 <div class="top icon-down toTopFromBottom"><a class="smooth-scroll" href="#top"><i class="pe-7s-angle-up"></i></a></div>
 
 
-<script src="js/libs.js" type="308741a24e3a5d838d5bcccc-text/javascript"></script>
+<script src="{% static 'frontend/js/libs.js' %} " type="308741a24e3a5d838d5bcccc-text/javascript"></script>
 
-<script src="js/common.js" type="308741a24e3a5d838d5bcccc-text/javascript"></script>
+<script src="{% static 'frontend/js/common.js' %} " type="308741a24e3a5d838d5bcccc-text/javascript"></script>
 <script type="308741a24e3a5d838d5bcccc-text/javascript">
     //popup the new project page
     function StartProject() {
@@ -13037,7 +13028,7 @@ document.getElementById('FTopDropdown_RequiredFieldValidator1').dispose = functi
 
     }
 </script>
-<script src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="308741a24e3a5d838d5bcccc-|49" defer></script></body>
+<script src=" {% static 'frontend/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js' %} " data-cf-settings="308741a24e3a5d838d5bcccc-|49" defer></script></body>
 
-<!-- Mirrored from unemployedprofessors.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Jun 2024 09:11:47 GMT -->
+
 </html>

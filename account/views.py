@@ -9,7 +9,7 @@ from django.contrib.auth import views as auth_views
 
 
 def index(request):
-    return render(request, 'index.html')
+    return render(request, 'frontend/index.html')
 
 
 def register(request):
