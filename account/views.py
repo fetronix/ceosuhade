@@ -62,4 +62,7 @@ def student(request):
 def preceptor(request):
     return render(request,'dashboard/preceptors.html')
 
+from django.contrib.auth.views import LogoutView
 
+class LogoutView(LogoutView):
+    template_name = 'accounts/logout.html'
